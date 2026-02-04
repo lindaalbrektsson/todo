@@ -6,6 +6,7 @@ document.body.appendChild(title);
 // Textfält och knapp
 const todoInput = document.createElement("input");
 todoInput.type = "text";
+todoInput.placeholder = "Vad ska du göra?";
 document.body.appendChild(todoInput);
 
 const addButton = document.createElement("button");
