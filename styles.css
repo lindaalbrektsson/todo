@@ -7,16 +7,17 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 24px;
+        font-size: 16px;
         line-height: 1.4;
     }
 
-    .input {
+    input {
     padding: 10px;
     border: solid 1px black;
     border-radius: 5px;
     max-width: 100px;
     margin-bottom: 20px;
+    font-size: 18px;
     }
 
     h1 {
@@ -33,17 +34,10 @@ body {
     border: solid 1px black;
     border-radius: 5px;
     color: white;
-            font-size: 18px;
+            font-size: 16px;
             padding: 12px 14px;
             width: 260px;
     }
-
-        input {
-            font-size: 18px;
-            padding: 12px 14px;
-            width: 260px;
-
-        }
 
     .btn-add {
     background-color: #007bff;
@@ -59,7 +53,11 @@ body {
     background-color: #007bff;
     }
 
-.done {
+    .done {
     text-decoration: line-through;
     opacity: 0.6;
+    }
+
+    .ready {
+    background-color: #ffc107;
     }

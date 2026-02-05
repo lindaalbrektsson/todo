@@ -48,12 +48,13 @@ removeButton.addEventListener("click", function () {
   console.log(toDos);
 });
 
-  readyButton.addEventListener("click", function () {
-    todo.done = !todo.done;
-    listItem.classList.toggle("done");
-    readyButton.textContent = todo.done ? "Ångra" : "Klar"
-    console.log(toDos);
-  });
+readyButton.addEventListener("click", function () {
+  todo.done = !todo.done;
+  listItem.classList.toggle("done");
+  readyButton.textContent = todo.done ? "Ångra" : "Klar";
+  readyButton.classList.toggle("ready", todo.done);
+  console.log(toDos);
+});
 
   // Lägg till allt i HTML och uppdatera listan
 
