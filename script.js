@@ -51,6 +51,7 @@ removeButton.addEventListener("click", function () {
   readyButton.addEventListener("click", function () {
     todo.done = !todo.done;
     listItem.classList.toggle("done");
+    readyButton.textContent = todo.done ? "Ångra" : "Klar"
     console.log(toDos);
   });
 
