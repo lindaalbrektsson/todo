@@ -33,7 +33,7 @@ function addTodoItem() {
   listItem.textContent = todo.text;
 
 // Ta bort-knapp
- const removeButton = document.createElement("button");
+const removeButton = document.createElement("button");
 removeButton.classList.add("btn", "btn-remove");
 removeButton.textContent = "Ta bort";
 
